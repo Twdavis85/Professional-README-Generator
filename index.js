@@ -13,9 +13,48 @@ const questions = [
     {
         type: "input",
         name: "projectDescription",
-        message: "What is the name of your project?"
+        message: "Enter a description of your project."
     },
-
+    {
+        type: "input",
+        name: "projectInstallation",
+        message: "Enter the project's installation instructions."
+    },
+    {
+        type: "input",
+        name: "projectInstallation",
+        message: "Enter the project's usage information."
+    },
+    {
+        type: "input",
+        name: "projectContribution",
+        message: "Enter the project's contribution guidelines."
+    },
+    {
+        type: "input",
+        name: "projectTest",
+        message: "Enter the project's test instructions."
+    },
+    {
+        type: "input",
+        name: "projectGitHub",
+        message: "Enter the link to your GitHub profile."
+    },
+    {
+        type: "input",
+        name: "projectEmail",
+        message: "Enter your email address."
+    },
+    {
+        type: "input",
+        name: "projectYear",
+        message: "Enter the year you created this project."
+    },
+    {
+        type: "input",
+        name: "projectName",
+        message: "Enter your first and last name."
+    },
     {
         type: "list",
         name: "license",

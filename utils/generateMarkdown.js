@@ -8,9 +8,9 @@ function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license, name,) {
+function renderLicenseSection(license, name, year) {
   if (license === "Apache%202.0"){
-    return `Copyright 2021 ${name}
+    return `Copyright  ${year} &ensp; ${name}
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -25,10 +25,31 @@ function renderLicenseSection(license, name,) {
     limitations under the License.`
   }
   if (license === "MIT"){
-    return `My license is MIT ${name}`
+    return `Copyright ${year} &ensp; ${name}
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    
+    `
   }
   if (license === "GNU%20v3.0"){
-    return `My license is GNU v3.0 ${name}`
+    return `Copyright (C)  ${year} &ensp; ${name}
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.`
   }
 }
 
@@ -41,15 +62,24 @@ function generateMarkdown(data) {
 * [Usage](#Usage)
 * [Contributing](#Contributing)
 * [Tests](#Tests)
-* [License](#License)
+* [Questions](##Questions)
+* [License](##License)
 
-# Description
+## Description
 ${data.projectDescription}
-# Installation
-# Usage
-# Contributing
-# Test
-${renderLicenseSection(data.license, data.projectTitle,data)}
+## Installation
+${data.projectInstallation}
+## Usage
+${data.projectInstallation}
+## Contributing
+${data.projectContribution}
+## Test
+${data.projectTest}
+## Questions
+${data.projectGitHub}<br/>
+${data.projectEmail}
+## License
+${renderLicenseSection(data.license, data.projectName, data.projectYear)}
 `;
 }
 
