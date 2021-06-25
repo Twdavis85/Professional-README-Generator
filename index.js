@@ -22,7 +22,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "projectInstallation",
+        name: "projectUsage",
         message: "Enter the project's usage information."
     },
     {
