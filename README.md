@@ -1,12 +1,13 @@
 # Professional README Generator
 ![license](https://img.shields.io/badge/license-Apache%202.0-blue)
-* [Description](#Description)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
-* [Questions](##Questions)
-* [License](##License)
+- [Professional README Generator](#professional-readme-generator)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Demo](#demo)
+  - [Repository](#repository)
+  - [Questions](#questions)
+  - [License](#license)
 
 ## Description
 This application asks the user a series of questions to create a professional README file for their project
@@ -14,10 +15,10 @@ This application asks the user a series of questions to create a professional RE
 For this application you will need the following things node.js, the inquirer package, and a terminal to run the application
 ## Usage
 After installing the necessary files open the terminal and run node index.js then simply answer the questions
-## Contributing
-ENTER CONTRIBUTING GUIDELINES HERE
-## Test
-ENTER TEST INSTRUCTIONS HERE
+## Demo
+[Link to Demo](https://drive.google.com/file/d/1vHAYVlIpMvvnLy3bWLRUH3fe69y6zsrJ/view)
+## Repository
+[GitHub Repository](https://github.com/Twdavis85/Professional-README-Generator)
 ## Questions
 To check out my work and follow me on GitHub visit: [Twdavis85](https://github.com/Twdavis85) <br/>
 If you have any questions about this or any other project feel free to email me at: [tdnc85@yahoo.com](tdnc85@yahoo.com)

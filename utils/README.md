@@ -4,8 +4,8 @@
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Demo](#demo)
-  - [Repository](#repository)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
   - [Questions](#questions)
   - [License](#license)
 
@@ -14,11 +14,11 @@ This application asks the user a series of questions to create a professional RE
 ## Installation
 For this application you will need the following things node.js, the inquirer package, and a terminal to run the application
 ## Usage
-After installing the necessary files open the terminal and run node index.js then simply answer the questions
-## Demo
-[Link to Demo](https://drive.google.com/file/d/1vHAYVlIpMvvnLy3bWLRUH3fe69y6zsrJ/view)
-## Repository
-[GitHub Repository](https://github.com/Twdavis85/Professional-README-Generator)
+After installing the necessary files open the terminal and run node index.js the simply answer the questions
+## Contributing
+ENTER CONTRIBUTING GUIDELINES HERE
+## Tests
+ENTER TEST INSTRUCTIONS HERE
 ## Questions
 To check out my work and follow me on GitHub visit: [Twdavis85](https://github.com/Twdavis85) <br/>
 If you have any questions about this or any other project feel free to email me at: [tdnc85@yahoo.com](tdnc85@yahoo.com)
