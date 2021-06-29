@@ -22,6 +22,9 @@ After installing the necessary files open the terminal and run node index.js the
 ## Questions
 To check out my work and follow me on GitHub visit: [Twdavis85](https://github.com/Twdavis85) <br/>
 If you have any questions about this or any other project feel free to email me at: [tdnc85@yahoo.com](tdnc85@yahoo.com)
+
+![README gif](./images/README.gif)
+
 ## License
 Copyright  2021 &ensp; Tyler Davis
 
