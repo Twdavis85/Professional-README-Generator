@@ -28,7 +28,7 @@ const questions = [
     {
         type: "input",
         name: "projectContribution",
-        message: "Enter the project's contribution guidelines."
+        message: "Enter the project's contribution guidelines.",
     },
     {
         type: "input",
@@ -38,7 +38,7 @@ const questions = [
     {
         type: "input",
         name: "projectGitHub",
-        message: "Enter the link to your GitHub profile."
+        message: "Enter your GitHub username."
     },
     {
         type: "input",
@@ -58,7 +58,7 @@ const questions = [
     {
         type: "list",
         name: "license",
-        message: "Which license?",
+        message: "Please choose a license.",
         choices: [{name: "MIT", value: "MIT" }, {name: "Apache 2.0", value: "Apache%202.0"}, {name: "GNU v3.0", value: "GNU%20v3.0"}]
     }
 ];

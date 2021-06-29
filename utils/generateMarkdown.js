@@ -88,8 +88,8 @@ ${data.projectContribution}
 ## Test
 ${data.projectTest}
 ## Questions
-To see more of my work visit ${data.projectGitHub} <br/>
-If you have any questions about this or any other project feel free to email me at ${data.projectEmail}
+To check out my work and follow me on GitHub visit: [${data.projectGitHub}](https://github.com/${data.projectGitHub}) <br/>
+If you have any questions about this or any other project feel free to email me at: [${data.projectEmail}](${data.projectEmail})
 ## License
 ${renderLicenseSection(data.license, data.projectName, data.projectYear)}
 `;
