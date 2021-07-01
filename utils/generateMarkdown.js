@@ -1,7 +1,7 @@
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license, name, year) {
-  if (license === "Apache%202.0"){
+  if (license === "Apache%202.0") {
     return `Copyright  ${year} &ensp; ${name}
 
     Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,9 +14,9 @@ function renderLicenseSection(license, name, year) {
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
-    limitations under the License.`
+    limitations under the License.`;
   }
-  if (license === "MIT"){
+  if (license === "MIT") {
     return `Copyright ${year} &ensp; ${name}
 
     Permission is hereby granted, free of charge, to any person obtaining
@@ -37,9 +37,9 @@ function renderLicenseSection(license, name, year) {
     TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
     OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     
-    `
+    `;
   }
-  if (license === "GNU%20v3.0"){
+  if (license === "GNU%20v3.0") {
     return `Copyright (C)  ${year} &ensp; ${name}
 
     This program is free software: you can redistribute it and/or modify
@@ -53,7 +53,7 @@ function renderLicenseSection(license, name, year) {
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.`
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.`;
   }
 }
 
@@ -80,8 +80,12 @@ ${data.projectContribution}
 ## Test
 ${data.projectTest}
 ## Questions
-To check out my work and follow me on GitHub visit: [${data.projectGitHub}](https://github.com/${data.projectGitHub}) <br/>
-If you have any questions about this or any other project feel free to email me at: [${data.projectEmail}](${data.projectEmail})
+To check out my work and follow me on GitHub visit: [${
+    data.projectGitHub
+  }](https://github.com/${data.projectGitHub}) <br/>
+If you have any questions about this or any other project feel free to email me at: [${
+    data.projectEmail
+  }](${data.projectEmail})
 ## License
 ${renderLicenseSection(data.license, data.projectName, data.projectYear)}
 `;

@@ -16,7 +16,8 @@ For this application you will need the following things node.js, the inquirer pa
 ## Usage
 After installing the necessary files open the terminal and run node index.js then simply answer the questions
 ## Demo
-[Link to Demo](https://drive.google.com/file/d/1vHAYVlIpMvvnLy3bWLRUH3fe69y6zsrJ/view)
+[Link to Demo](https://drive.google.com/file/d/1vHAYVlIpMvvnLy3bWLRUH3fe69y6zsrJ/view) <br/>
+[Table of Contents Demo](https://drive.google.com/file/d/1HV4VAOB0ysG5kIbf-_ZpBN5OXT1aIOlV/view)
 ## Repository
 [GitHub Repository](https://github.com/Twdavis85/Professional-README-Generator)
 ## Questions
