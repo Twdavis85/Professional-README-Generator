@@ -21,7 +21,7 @@ ENTER CONTRIBUTING GUIDELINES HERE
 ENTER TEST INSTRUCTIONS HERE
 ## Questions
 To check out my work and follow me on GitHub visit: [Twdavis85](https://github.com/Twdavis85) <br/>
-If you have any questions about this or any other project feel free to email me at: [tdnc85@yahoo.com](tdnc85@yahoo.com)
+If you have any questions about this or any other project feel free to email me at: [tdnc85@yahoo.com](mailto:tdnc85@yahoo.com)
 ## License
 Copyright  2021 &ensp; Tyler Davis
 
