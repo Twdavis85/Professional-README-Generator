@@ -85,7 +85,7 @@ To check out my work and follow me on GitHub visit: [${
   }](https://github.com/${data.projectGitHub}) <br/>
 If you have any questions about this or any other project feel free to email me at: [${
     data.projectEmail
-  }](${data.projectEmail})
+  }](mailto:${data.projectEmail})
 ## License
 ${renderLicenseSection(data.license, data.projectName, data.projectYear)}
 `;
